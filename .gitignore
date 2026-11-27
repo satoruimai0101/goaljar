@@ -1,0 +1,23 @@
+# Foundry build artifacts
+out/
+cache/
+broadcast/
+
+# Dependencies (fetch with: forge install Reactive-Network/reactive-lib-omni@v0.1.0)
+lib/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.secret
+*.secret.json
+*secret*
+*wallet*
+*.key
+keystore/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
